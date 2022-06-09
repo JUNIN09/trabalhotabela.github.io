@@ -1,0 +1,40 @@
+:root {
+    --fonte: 'uni-sans-heavy-caps', sans-serif;
+    --cor-de-fundo: #2c2f33;
+    --cor-do-link: #99aab5;
+    --cor-da-font: #ffffff;
+    --cor-da-borda: #000000;
+}
+
+body {
+    text-align: center;
+    max-width: 500px;
+    margin: 0 auto;
+    font-family: var(--fonte);
+    color: var(--cor-da-font);
+    background-color: var(--cor-de-fundo);
+}
+
+td {
+    border: 1px solid var(--cor-da-borda);
+}
+
+table {
+    border: 1px solid var(--cor-da-borda);
+    width: 100%;
+    background-color: var();
+}
+
+th {
+    border: 1px solid var(--cor-da-borda);
+}
+
+footer {
+    padding: 50px;
+    max-width: 1000px;
+    display: flex;
+}
+
+.autor{
+    text-align: left;
+}
